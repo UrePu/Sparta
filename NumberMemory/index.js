@@ -21,5 +21,9 @@ startBtn.addEventListener("click", () => {
 submitBtn.addEventListener("click", () => {
   if (i == inputBox.value && i !== 0) {
     lastTxt.style.display = "block";
+    lastTxt.innerHTML = "정답입니다!";
+  } else {
+    lastTxt.style.display = "block";
+    lastTxt.innerHTML = "오답입니다.정답은 [" + i + "] 입니다";
   }
 });
