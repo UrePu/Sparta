@@ -6,3 +6,4 @@ function ageCheck(age) {
 ageCheck(17);
 
 ageCheck(18);
+a;
